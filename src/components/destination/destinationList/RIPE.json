@@ -1,0 +1,28 @@
+[
+  {
+    "title": "1. Connection Settings",
+    "fields": [
+      {
+        "type": "textInput",
+        "label": "API Key",
+        "value": "apiKey",
+        "regex": "^(.{0,100})$",
+        "regexErrorMessage": "Invalid API Key",
+        "required": true,
+        "placeholder": "e.g: 06c19c59-48d2-11ea-b27a-faffc22c7c7f",
+        "secret": true
+      }
+    ]
+  },
+  {
+    "title": "2. Native SDK",
+    "fields": [
+      {
+        "type": "checkbox",
+        "label": "Use device-mode to send events",
+        "value": "useNativeSDK",
+        "default": true
+      }
+    ]
+  }
+]

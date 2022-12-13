@@ -84,6 +84,7 @@ const destinationList = {
   RECURLY: require('./RECURLY.json'),
   REDDIT_PIXEL: require('./REDDIT_PIXEL.json'),
   REDIS: require('./REDIS.json'),
+  RIPE: require('./RIPE.json'),
   RS: require('./RS.json'),
   S3: require('./S3.json'),
   S3_DATALAKE: require('./S3_DATALAKE.json'),
